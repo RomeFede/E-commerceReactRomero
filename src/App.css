@@ -1,0 +1,22 @@
+
+body {
+  background-image: url(../public/img/pizzeriafondo1.jpg);
+  
+  background-size: 100%;
+  
+}
+
+h2{
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: bolder;
+  ;
+  
+  color: black;
+  background-color: #f09d04;
+  
+}
+
+
+
+
