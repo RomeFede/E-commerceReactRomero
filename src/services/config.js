@@ -3,7 +3,7 @@ import {getFirestore} from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBsnJ1MwA4FZFQAG_GxLq_eSxsQCkXnj-U",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "reactromero-5a2d4.firebaseapp.com",
   projectId: "reactromero-5a2d4",
   storageBucket: "reactromero-5a2d4.appspot.com",
@@ -14,3 +14,4 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+
