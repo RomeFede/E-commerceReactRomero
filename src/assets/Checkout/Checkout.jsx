@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
 import { db } from "../../services/config";
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
-import './checkout.css'
+import './Checkout.css'
 
 const Checkout = () => {
     const [nombre, setNombre] = useState("");
