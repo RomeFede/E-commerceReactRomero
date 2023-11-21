@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+}
+    
+
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+form{
+    width: 25%;
+    text-align: center;
+
+
+    margin: auto;
+    background: rgb(235, 193, 80);
+    
+    margin-top: 25px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+
+input, textarea{
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+textarea{
+    margin-top: 15px;
+    border: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 100px;
+}

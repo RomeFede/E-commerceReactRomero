@@ -26,6 +26,6 @@ a {
     list-style: none;
 }
 
-a:hover {
-    background-color: grey;
+li a:hover{
+    color: aliceblue;
 }

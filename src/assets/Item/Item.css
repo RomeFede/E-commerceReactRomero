@@ -10,7 +10,9 @@
 }
 
 .cardProducto img {
-    width: 150px;
-    object-fit: contain;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    
 }
 

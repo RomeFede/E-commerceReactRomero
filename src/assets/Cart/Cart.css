@@ -1,0 +1,32 @@
+.cartdiv{
+    text-align: center;
+    background: rgb(235, 193, 80);
+    
+}
+
+button{
+    padding: 6px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 10px;
+    border-radius: 10px;
+    background-color: rgb(216, 122, 39);
+}
+
+button:hover{
+    background-color: white;
+    
+}
+
+.buttoncart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.buttoncarta{
+    padding: 25PX;
+    font-size: x-large;
+}
